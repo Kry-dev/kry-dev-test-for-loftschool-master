@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+body{
+	font-size: 14px;
+	height: 100%;
+
+}
+.page_wrap{
+	min-height: 93%;
+}
+.page_wrap:after{
+	content: "";
+	display: block;
+	height: 10px;
+}
+
+/*-----------START NAV-----------*/
+nav{
+	padding: 14px 0 14px 28px;
+	background: #8cc34b;
+	height: 62px;
+	box-shadow: 0 0 8px rgba(204,204,204,1);
+	
+}
+.acaunt{
+	float: left;
+	width: 70%;
+}
+.photo{
+	float: left;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	overflow: hidden;
+}
+.photo img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+
+}
+.data{
+	float: left;
+	padding-left: 19px;
+	color: #fff;
+}
+.name{
+	font-family:FiraSans-Medium;
+	font-size: 21px;
+	padding-top: 12px;
+}
+.mail{
+	font-family:FiraSans-Regular;
+	font-size: 14px;
+	padding-top: 5px;
+}
+.social{
+	float: right;
+}
+.social ul{
+	padding-top: 16px;
+	padding-right: 30px;
+}
+.social ul li{
+	display: inline-block;
+	font-size: 30px;
+	padding-left: 20px;
+}
+.social ul li a{
+	color: #e1eed4;
+}
+.social ul li a:hover{
+	color: #fff;
+}
+/*-----------FINISH NAV-----------*/
+
+
+/*-----------START HEADER-----------*/
+h1{
+	font-family:FiraSans-Medium;
+	font-size: 42px;
+	text-align: center;
+	padding-top: 60px;
+	color: #212121;
+}
+.about{
+	font-family: FiraSans-Light;
+	text-align: center;
+	font-size: 21px;
+	color: #727272;
+	padding-top: 26px;
+	padding-bottom: 46px;
+}
+.complete{
+	font-family: FiraSans-Medium;
+	font-size: 41px;
+	text-align: center;
+	color: #8cc34b;
+	position: absolute;
+    top: 975px;
+	width: 100%;
+    left: 50%;
+	margin-left: -50%;
+    transition-delay: 2s;
+    display: none;
+
+}
+.about_wrap{
+	padding:0 10% 75px 10%; 
+	width: 80%;
+	float: left;
+}
+.wrapper{
+	width: 50%;
+	float: left;
+}
+.about_me{
+	padding: 0 23px;
+	width: 428px;
+	margin: 0 auto;
+}
+.about_img{
+	float: left;
+	margin-right: 10px;
+}
+.about_img img{
+	width: 140px;
+
+}
+.my_experience{
+	font-family: FiraSans-Light;
+	float: left;
+	width: 277px;
+	color: #727272;
+	line-height: 20px;
+}
+.me{
+	font-family: FiraSans-Regular;
+	text-align: center;
+	font-size: 21px;
+	color: #212121;
+	padding-bottom: 14px;
+}
+.my_life a{
+	color: #29b0f5;
+}
+/*-----------FINISH HEADER-----------*/
+
+/*-----------START COURSES-----------*/
+.courses{
+	background: url('images/gplaypattern.png');
+	width: 80%;
+	padding: 0 10%;
+	float: left;
+}
+h2{
+	font-family: FiraSans-Medium;
+	font-size: 42px;
+	text-align: center;
+	color: #212121;
+	padding-top: 80px;
+}
+.container{
+	width: 100%;
+	height: 522px;
+}
+.container:last-child{
+	height: 550px;
+}
+.wrap_courses{
+	width: 33.3%;
+	float: left;
+	margin-bottom: 20px;
+}
+.course_detail{
+	width: 300px;
+	box-shadow: 0 0 3px rgba(225,226,223,1);
+	margin: 0 auto;
+}
+.img_course{
+	height: 170px;
+
+}
+.course_detail_wrap{
+	padding: 0 20px;
+	background: #fff;
+}
+.name_course{
+	font-family: FiraSans-Regular;
+	font-size: 21px;
+	color: #212121;
+	padding: 21px 0;
+}
+.about_course{
+	font-family: FiraSans-Light;
+	color: #727272;
+	line-height: 20px;
+}
+.time{
+	font-family: FiraSans-Light;
+	color: #b6b6b6;
+	padding: 20px 0;
+}
+.looked{
+	font-family: FiraSans-Regular;
+	color: #727272;
+	font-size: 18px;
+	padding: 20px 0 20px 20px;
+	background: #f6f7f2;
+}
+input:checked + label{
+	color: #acd37e;
+}
+input:checked + label:before{
+	background: #acd37e;
+	border: 2px solid  #acd37e;
+}
+input:checked + label:after{
+	content: "";
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: url(images/checkmark.png)no-repeat;
+	position: absolute;
+	left: 5px;
+	bottom:4px;
+}
+
+input{
+	display: none;
+}
+label{
+	position: relative;
+}
+label:hover{
+	cursor: pointer;
+}
+label:before{
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	border: 2px solid #b6b6b6;
+	border-radius: 1px;
+	margin-right: 16px;
+	vertical-align: bottom;
+
+
+}
+label:after{
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: #fff;
+	position: absolute;
+	left: 2px;
+	bottom:0px;
+
+}
+.course_detail:hover > .img_course{
+	box-shadow: 0px 5px 0px 0px #8cc34b;
+	position: relative;
+
+}
+.course_detail:hover > .course_detail_wrap > .name_course{
+	color: #8cc34b;
+}
+
+.wrap_courses.checked .course_detail_wrap{
+	background: #ecf4e3;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+/*-----------FINISH COURSES-----------*/
+
+/*-----------START FOOTER-----------*/
+footer{
+	font-family: FiraSans-Regular;
+	background: #212121;
+	color: #b6b6b6;
+	text-align: center;
+	padding: 18px 0;
+	float: left;
+	width: 100%;
+
+}
+
+/*-----------FINISH FOOTER-----------*/
+.delay{
+	/*opacity: 0;
+	transition-delay: 1s;*/
+	display: none;
+}
+
+/*-----------START MEDIA-----------*/
+@media screen and (max-width: 959px) {
+	.wrapper{
+	width: 100%}
+	.wrapper:first-child{
+	padding-bottom: 75px;}
+}
+
+@media screen and (max-width: 1145px) {
+	.wrap_courses{
+	width: 50%;}
+}
+
+@media screen and (max-width: 780px) {
+	.wrap_courses{
+	width: 100%;}
+}
